@@ -14,6 +14,7 @@ public class Product {
 
     public LocalDate getExpirationDate() {
         return expirationDate;
+
     }
 
 }
