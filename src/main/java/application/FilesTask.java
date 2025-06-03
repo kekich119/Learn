@@ -1,5 +1,7 @@
 package application;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.File;
 import java.nio.file.*;
 import java.io.IOException;
@@ -26,6 +28,7 @@ public class FilesTask {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
         System.out.println(Files.exists(Path.of("TestDir")));
         System.out.println(Files.exists(Path.of("TestDir/testFile.txt")));
